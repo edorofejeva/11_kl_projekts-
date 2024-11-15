@@ -36,3 +36,17 @@ li {
     margin: 5px;
     font-size: 45px;
 }
+a:link, a:visited {
+    background-color: rgb(255, 192, 203);
+    color: rgb(154, 98, 207);
+    border: rgb(209, 107, 124);
+    padding: 10px 20px;
+    text-align: center;
+    text-emphasis: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color: rgb(216, 63, 170);
+}
