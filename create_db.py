@@ -6,8 +6,8 @@ c = conn.cursor()
 
 #izveido tabulu rezultātiem
 c.execute('''
-CREATE TABLE IF NOT EXISTS tops (
-          id INTEGER PRIYMARY KEY AUTOINCREAMENT,
+CREATE TABLE IF NOT EXISTS rezultati (
+          id INTEGER PRIYMARY KEY AUTOINCREMENT,
           vards TEXT NOT NULL,
           klikski INTEGER NOT NULL,
           laiks INTEGER NOT NULL,
