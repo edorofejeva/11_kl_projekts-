@@ -64,7 +64,7 @@ async function pievienotiesTopam(rezultatsparams) {
     const poga = document.querySelector('#pievnotTopam');
     const statuss = document.querySelector('#pievienotStatuss'); 
     try {
-        if (poga) poga.disable = true;
+        if (poga) poga.disabled = true;
         if (statuss) statuss.textContent = 'Saglabā...';
         const payload = {
             vards: rezultatsparams.vards,
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (rezultats && konteiners) {
         konteiners.style.display = 'block';
-        document.querySelector('#razVards'), textContent = rezultats.vards;
+        document.querySelector('#razVards'). textContent = rezultats.vards;
         document.querySelector('#rezKlikski').textContent = rezultats.klikski;
         document.querySelector('#rezLaiks').textContent = formatTime(rezultats.laiks);
 
